@@ -3,8 +3,6 @@ class Solution:
         s, l = '', ''
         for i in strs:
             s += i + '\u0986'
-        '''201 + 402 + ... + 200(201) = 
-        '''
         return s
 
     def decode(self, s: str) -> List[str]:
